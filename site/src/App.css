@@ -1,0 +1,8 @@
+.cat__page {
+    position: absolute;
+    z-index: 1;
+}
+.dog__page {
+    position: absolute;
+        z-index: 1;
+}

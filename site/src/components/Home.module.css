@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+.home_container {
+  overflow: hidden;
+}
+.heading {
+  color: white;
+  position: absolute;
+  top: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Rubik Moonrocks", cursive;
+}
+.nav {
+  position: fixed;
+  background-color: aqua;
+  z-index: 2;
+}
+
+.list {
+  display: flex;
+  background-color: brown;
+  position: fixed;
+  width: 100vw;
+  margin-top: 0px;
+}
+
+.list li {
+  margin: auto;
+}
+
+.heading_img {
+  object-fit: cover;
+  margin-top: 25px;
+
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  box-shadow: 9px 5px 9px 2px #9a9a9a;
+  filter: brightness(70%);
+}
+/* cat section animation */
+.cat_section {
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-inline: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  box-shadow: 9px 5px 9px 2px #9a9a9a;
+}
+@keyframes show_cat {
+  0% {
+    margin-left: -100vw;
+    margin-right: 100vw;
+  }
+
+  100% {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.cat_section_show {
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-inline: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  box-shadow: 9px 5px 9px 2px #9a9a9a;
+
+  animation: show_cat 1s;
+}
+/* cat section animation */
+/* ----------------------------------- */
+/* dog section animation */
+.dog_section {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-inline: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  box-shadow: 9px 5px 9px 2px #9a9a9a;
+}
+@keyframes show-dog {
+  0% {
+    margin-left: 100vw;
+    margin-right: -100vw;
+  }
+
+  100% {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.dog_section_show {
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-inline: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  box-shadow: 9px 5px 9px 2px #9a9a9a;
+  animation: show-dog 1s;
+}
+/* dog section animation */
+p {
+  width: auto;
+}
+.cat_button {
+  display: block;
+  margin: 20px;
+  margin-inline: auto;
+  margin-left: 0;
+}
+.dog_button {
+  display: block;
+  margin: 20px;
+  margin-inline: auto;
+  margin-right: 0;
+}
+
+.cat_info_img {
+  margin: 20px;
+  box-shadow: 9px 5px 9px 2px #9a9a9a;
+  border-radius: 20px;
+}
+
+@media (max-width: 400px) {
+  .heading_img {
+    margin-right: 0;
+    height: 300px;
+    width: 120vw;
+  }
+  .cat_section {
+    display: block;
+  }
+  p {
+    margin-inline: auto;
+    width: 300px;
+  }
+  .cat_info_img {
+    margin: auto;
+    width: 50vw;
+  }
+  .button {
+    margin-top: 30px;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 700px) {
+  .dog_section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .dog_section_show {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .cat_section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .cat_section_show {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cat_info_img {
+    width: 300px;
+
+    margin: 20px;
+    box-shadow: 9px 5px 9px 2px #9a9a9a;
+    border-radius: 20px;
+  }
+  .cat_button {
+    display: block;
+    margin: 20px;
+    margin-inline: auto;
+  }
+  .dog_button {
+    display: block;
+    margin: 20px;
+    margin-inline: auto;
+  }
+  .home_description {
+    margin: 20px;
+    text-align: justify;
+  }
+}
+
+.logo {
+  height: 80px;
+  color: white;
+  position: absolute;
+  top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 50px;
+}
+.caloric_calculator {
+  font-size: 20px;
+  margin: 20px;
+}
+.caloric_calculator a,
+.caloric_calculator a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #0a66c2;
+  cursor: pointer;
+}

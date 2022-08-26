@@ -1,0 +1,32 @@
+img {
+  max-width: 100%;
+}
+.list li {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-gap: 10px;
+
+  list-style: none;
+}
+.mask {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.description {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.list {
+    
+  position: absolute;
+  right: 20px;
+  width: 350px;
+  height: 60vh;
+  background-color: azure;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: scroll;
+}

@@ -1,0 +1,62 @@
+.page_img {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  margin-top: -125px;
+  margin-bottom: 0;
+  object-fit: contain;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+.element_one {
+  position: relative;
+}
+.element_two {
+  position: relative;
+}
+.element_three {
+  position: relative;
+}
+.element_four {
+  position: relative;
+}
+
+.heading_dogs_light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  position: sticky;
+  padding: -300px;
+  top: 80px;
+  bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.heading_dogs_dark {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: black;
+  text-transform: uppercase;
+  position: sticky;
+  padding: -300px;
+  top: 80px;
+  bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+nav {
+  z-index: 2;
+}
+.learnbtn {
+  left: 45vw;
+  top: 70vh;
+  position: relative;
+  z-index: 2;
+}
